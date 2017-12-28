@@ -9,6 +9,8 @@ __Please note:__ This repository is a temporary fork of
 [Incenteev/ParameterHandler](https://github.com/Incenteev/ParameterHandler) to make the package compatible with
 Symfony 4.
 
+[![Build Status](https://travis-ci.org/derrabus/ParameterHandler.png)](https://travis-ci.org/derrabus/ParameterHandler)
+
 ## Usage
 
 Add the following in your root composer.json file:
