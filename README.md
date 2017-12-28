@@ -5,12 +5,9 @@ install or update. It works when storing the parameters in a Yaml file under
 a single top-level key (named ``parameters`` by default). Other keys are
 copied without change.
 
-[![Build Status](https://travis-ci.org/Incenteev/ParameterHandler.png)](https://travis-ci.org/Incenteev/ParameterHandler)
-[![Code Coverage](https://scrutinizer-ci.com/g/Incenteev/ParameterHandler/badges/coverage.png?s=ea5de28d9764fdcb6a576a41e244c0ac537b3c81)](https://scrutinizer-ci.com/g/Incenteev/ParameterHandler/)
-[![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/Incenteev/ParameterHandler/badges/quality-score.png?s=6143d945bbdfac5c1114d4fe5d0f4ee737db18bf)](https://scrutinizer-ci.com/g/Incenteev/ParameterHandler/)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/3a432e49-6018-41a5-a37b-b7fb151706c1/mini.png)](https://insight.sensiolabs.com/projects/3a432e49-6018-41a5-a37b-b7fb151706c1)
-[![Latest Stable Version](https://poser.pugx.org/incenteev/composer-parameter-handler/v/stable.png)](https://packagist.org/packages/incenteev/composer-parameter-handler)
-[![Latest Unstable Version](https://poser.pugx.org/incenteev/composer-parameter-handler/v/unstable.png)](https://packagist.org/packages/incenteev/composer-parameter-handler)
+__Please note:__ This repository is a temporary fork of
+[Incenteev/ParameterHandler](https://github.com/Incenteev/ParameterHandler) to make the package compatible with
+Symfony 4.
 
 ## Usage
 
@@ -19,7 +16,7 @@ Add the following in your root composer.json file:
 ```json
 {
     "require": {
-        "incenteev/composer-parameter-handler": "~2.0"
+        "derrabus/composer-parameter-handler": "~2.0"
     },
     "scripts": {
         "post-install-cmd": [

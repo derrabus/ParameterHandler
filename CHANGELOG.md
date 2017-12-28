@@ -1,3 +1,7 @@
+## 2.1.3 (2017-12-28, unofficial)
+
+* Mark Symfony 4 components as supported.
+
 ## 2.1.2 (2015-11-10)
 
 * Mark symfony/yaml 3 as supported to be compatible with Symfony 3

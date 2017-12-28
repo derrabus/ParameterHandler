@@ -1,8 +1,8 @@
 {
-    "name": "incenteev/composer-parameter-handler",
+    "name": "derrabus/composer-parameter-handler",
     "description": "Composer script handling your ignored parameter file",
     "keywords": ["parameters management"],
-    "homepage": "https://github.com/Incenteev/ParameterHandler",
+    "homepage": "https://github.com/derrabus/ParameterHandler",
     "license": "MIT",
     "authors": [
         {
@@ -26,5 +26,8 @@
         "branch-alias": {
             "dev-master": "2.1.x-dev"
         }
+    },
+    "replace": {
+        "incenteev/composer-parameter-handler": "2.1.2"
     }
 }
