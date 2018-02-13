@@ -34,7 +34,12 @@ class ScriptHandlerTest extends TestCase
 
         chdir(__DIR__);
 
-        $this->setExpectedException('InvalidArgumentException', $exceptionMessage);
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('InvalidArgumentException');
+            $this->expectExceptionMessage($exceptionMessage);
+        } else {
+            $this->setExpectedException('InvalidArgumentException', $exceptionMessage);
+        }
 
         ScriptHandler::buildParameters($this->event->reveal());
     }

@@ -1,6 +1,6 @@
-## 2.1.3 (2017-12-28, unofficial)
+## 2.1.3 (2018-02-13)
 
-* Mark Symfony 4 components as supported.
+* Mark symfony/yaml 4 as supported to be compatible with Symfony 4
 
 ## 2.1.2 (2015-11-10)
 

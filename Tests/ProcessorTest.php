@@ -45,7 +45,12 @@ class ProcessorTest extends TestCase
     {
         chdir(__DIR__);
 
-        $this->setExpectedException('InvalidArgumentException', $exceptionMessage);
+        if (method_exists($this, 'expectException')) {
+            $this->expectException('InvalidArgumentException');
+            $this->expectExceptionMessage($exceptionMessage);
+        } else {
+            $this->setExpectedException('InvalidArgumentException', $exceptionMessage);
+        }
 
         $this->processor->processFile($config);
     }
