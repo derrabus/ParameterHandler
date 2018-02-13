@@ -5,9 +5,9 @@ install or update. It works when storing the parameters in a Yaml file under
 a single top-level key (named ``parameters`` by default). Other keys are
 copied without change.
 
-__Please note:__ This repository is a temporary fork of
-[Incenteev/ParameterHandler](https://github.com/Incenteev/ParameterHandler) to make the package compatible with
-Symfony 4.
+__Please note:__ The original package
+[Incenteev/ParameterHandler](https://github.com/Incenteev/ParameterHandler) is now compatible with Symfony 4. Please
+switch your projects back to `incenteev/composer-parameter-handler`.
 
 [![Build Status](https://travis-ci.org/derrabus/ParameterHandler.png)](https://travis-ci.org/derrabus/ParameterHandler)
 
